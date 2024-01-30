@@ -6,10 +6,8 @@ class ToDoList:
         self.tasks.append({'task': task, 'completed': False})
 
     def delete_task(self, task_index):
-        if 0 <= task_index < len(self.tasks):
-            del self.tasks[task_index]
-        else:
-            print("Invalid task number.")
+        del self.tasks[task_index]
+
 
     def complete_task(self, task_index):
         if 0 <= task_index < len(self.tasks):
