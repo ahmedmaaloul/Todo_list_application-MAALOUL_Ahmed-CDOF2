@@ -7,6 +7,7 @@ class ToDoList:
 
     def delete_task(self, task_index):
         del self.tasks[task_index]
+        #add error handling
 
 
     def complete_task(self, task_index):
