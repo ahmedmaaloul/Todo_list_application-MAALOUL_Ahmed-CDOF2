@@ -1,40 +1,67 @@
-<h1>ToDo List Application</h1>
-<h2>Introduction</h2>
-<p>This simple console-based ToDo List application allows users to manage their tasks effectively. Users can add new tasks, delete existing ones, mark tasks as completed, and view their current task list.</p>
-<h2>Requirements</h2>
-<ul>
-   <li>Python 3.x</li>
-</ul>
-<h2>Installation</h2>
-<p>No additional installation is required apart from having Python installed on your system. The application is self-contained in a single Python script.</p>
+# ToDo List Application
 
-<h2>Running the Application</h2>
-<p>To run the application, follow these steps:</p>
-<ol>
-      <li>Download or clone this project to your local machine.</li>
-      <li>Open a terminal or command prompt.</li>
-      <li>Navigate to the directory where the <code>todo_list.py</code> script is located.</li>
-      <li>Run the script using Python by typing:<br>
-            <code>python todo_list.py</code>
-        </li>
-</ol>
+## Introduction
 
-<h2>Usage</h2>
-<p>Upon running the application, you will be presented with a menu of options:</p>
-<ul>
-    <li><strong>Add Task</strong>: Add a new task to your ToDo list.</li>
-    <li><strong>Delete Task</strong>: Delete an existing task from the list.</li>
-    <li><strong>Complete Task</strong>: Mark a task as completed.</li>
-    <li><strong>Show Tasks</strong>: Display all current tasks along with their completion status.</li>
-    <li><strong>Exit</strong>: Close the application.</li>
-</ul>
-<p>Choose an option by entering the corresponding number and following the on-screen instructions.</p>
+This simple console-based ToDo List application enables users to effectively manage their tasks. It's designed for ease of use, allowing users to add, delete, mark tasks as completed, and view their current task list.
 
-<h2>Note</h2>
-<p>This application stores tasks in memory, and thus, tasks will not persist between runs of the application. Future versions may include persistent storage.</p>
+## Requirements
 
-<h2>Contributing</h2>
-<p>Contributions to this project are welcome. Please feel free to fork the repository, make changes, and submit pull requests.</p>
+- Python 3.x
 
-<h2>License</h2>
-<p>This project is open-source and available under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+## Installation
+
+This application is self-contained in a single Python script and requires no additional installation, except Python on your system.
+
+## Environment Setup
+
+1. Ensure Python 3.x is installed:
+   - On Windows, download and install it from [python.org](https://www.python.org/downloads/).
+   - On macOS/Linux, Python is usually pre-installed. You can verify by running `python3 --version` in the terminal.
+
+2. (Optional) Set up a virtual environment:
+   - This isolates your project dependencies. Run:
+     ```
+     python3 -m venv myenv
+     source myenv/bin/activate (Linux/macOS)
+     myenv\Scripts\activate (Windows)
+     ```
+
+## Running the Application
+
+1. Download or clone this project to your local machine.
+2. Open a terminal or command prompt.
+3. Navigate to the directory containing `todo_list.py`.
+4. Run the script: `python todo_list.py`.
+
+## Usage
+
+After launching, you'll see a menu of options:
+- **Add Task**: Add a new task to your ToDo list.
+- **Delete Task**: Delete an existing task.
+- **Complete Task**: Mark a task as completed.
+- **Show Tasks**: Display all current tasks with their status.
+- **Exit**: Close the application.
+
+Select an option by entering its corresponding number and follow the on-screen instructions.
+
+## Troubleshooting
+
+- If the script doesn't run, ensure Python is correctly installed and in your system's PATH.
+- For any other issues, please report them on the project's issues page.
+
+## Contributing
+
+Contributions are welcome! For guidelines on how to contribute:
+1. Fork the repository.
+2. Make changes or add new features.
+3. Submit a pull request with a clear description of your changes.
+
+## Contributor's Guide
+
+- Please adhere to the project's coding style for consistency.
+- Add comments and documentation where necessary.
+- Ensure your code is tested before submitting a pull request.
+
+## License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
