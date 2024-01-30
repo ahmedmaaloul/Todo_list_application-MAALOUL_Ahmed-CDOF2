@@ -75,7 +75,7 @@ def main():
                 todo_list.delete_task(task_number)
             except ValueError:
                 print("Please enter a valid number.")
-        elif choice = '3':
+        elif choice == '3':
             try:
                 task_number = int(input("Enter task number to complete: "))
                 todo_list.complete_task(task_number)
