@@ -1,8 +1,8 @@
-#imports 
+#imports
 import json
 
 class ToDoList:
-    def __init__(self):
+    def _init_(self):
         # Initialize an empty task list and then load tasks from the JSON file if available
         self.tasks = []
         self.load_tasks()
@@ -88,5 +88,5 @@ def main():
         else:
             print("Invalid choice. Please choose a valid option.")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
